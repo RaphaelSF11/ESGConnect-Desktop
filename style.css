@@ -1,0 +1,109 @@
+/* Definindo as fontes */
+@font-face {
+    font-family: "Unbounded";
+    src: url(../ESGConnect/fonts/Unbounded-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../ESGConnect/fonts/Poppins-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* Reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos desktop */
+body{
+    background-color: #ebebeb;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap:  40px;
+}
+header .logo_esg{
+    margin: 55px 0 0 360px;
+    display: block;
+    cursor: pointer;
+
+}
+h1{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 650;
+    color: #02391e;
+    text-align: center;
+    line-height: 1;
+}
+span{
+    color: #058d47;
+}
+p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #02391e;
+    width: 792px;
+    text-align: center;
+}
+a{
+    font-size: 24px;
+    width: 340px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 40px ;
+    border: 2px solid #02391e;
+    border-radius: 36px;
+    background-color: #02391e;
+}
+a:hover{
+    background-color: #056335;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Desing responsivo tablet */
+@media(max-width: 768px){
+    header .logo_esg{
+        margin: 65px 0 0 60px
+    }
+
+    p{
+        width: 648px;
+    }
+    
+}
+
+/* Desing responsivo mobile */
+@media(max-width: 375px){
+    header .logo_esg{
+        margin: 32px 0 0 16px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    a{
+        font-size: 15px;
+        width: 251px;
+    }
+    section img{
+        width: 349px;
+        height: 270px;
+    }
+
+}
