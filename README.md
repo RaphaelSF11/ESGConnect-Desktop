@@ -13,7 +13,7 @@ Para visualizar o projeto, siga os passos abaixo:
 1.  Clone o repositório:
 
     ```bash
-    git clone https://github.com/RaphaelSF11/ESGConnect.git
+    git clone https://github.com/RaphaelSF11/ESGConnect-Desktop.git
     ```
 2.  Navegue até a pasta do projeto:
 
